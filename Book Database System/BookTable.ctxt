@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BookTable
+comment0.text=\r\n\ Creates\ a\ Book\ table\ from\ the\ Book\ Database\ created\ in\ sqlite.online\r\n\ by\ connection\ with\ JDBC\r\n\r\n\ @Cynthia\r\n\ @version\ CS1103\r\n\ @date\ 4-8-2024\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=category\ rs
+comment2.target=void\ printTable(java.lang.String,\ java.sql.ResultSet)
+numComments=3

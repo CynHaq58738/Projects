@@ -1,0 +1,31 @@
+--drop table Book
+--drop table Texture
+--drop table Type
+
+create table Book
+	(ISBN         numeric(13,0),
+	 title        varchar(50),
+         author       varchar(50),
+         year         numeric(4,0),
+         num_pages    numeric(3,0),
+         publisher    varchar(50),
+         primary key  (ISBN, title)
+	);
+
+create table Texture
+	(smooth       varchar(50),
+	 soft         varchar(10),
+         hard         varchar(10),
+         bumpy        varchar(10),
+         rough        varchar(10),
+         primary key  (smooth)
+	);   
+
+create table Type
+	(graphic_novel  varchar(50),
+         action         varchar(50),
+         fiction        varchar(10),
+         non_fiction    varchar(50),
+         sci_fi         varchar(10),
+         primary key    (graphic_novel)
+	);

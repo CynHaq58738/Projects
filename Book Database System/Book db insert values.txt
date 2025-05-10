@@ -1,0 +1,149 @@
+
+begin;
+delete from Book;
+delete from Texture;
+delete from Type;
+
+insert into Book values(9781569319017, 'East Blue One Piece', 'Eiichiro Oda', 1997, 207, 'Shonen Jump');
+insert into Book values(9780593174562, 'Its All Love', 'Jenna Ortega', 2021, 221, 'Ali Mac');
+insert into Book values(9780439023528, 'The Hunger Games', 'Suzanne Collins', 2008, 374, 'Scholastic Press');
+insert into Book values(9781421523309, 'The Legend of Zelda Oracle of Seasons', 'Akira Himekawa', 2009, 193, 'Hyoe Narita');
+insert into Book values(9781421523293, 'The Legend of Zelda Majoras Mask', 'Akira Himekawa', 2009, 207, 'Hyoe Narita');
+insert into Book values(9781421523279, 'The Legend of Zelda Ocarina Of Time Part 1', 'Akira Himekawa', 2008, 191, 'Hyoe Narita');
+insert into Book values(9780545611299, 'Geronimo Stilton The Journey Through Time', 'Elisabetta Dami', 2014, 096, 'Scholastic Press');
+insert into Book values(9780810993136, 'Diary Of a Wimpy Kid', 'Jeff Kinney', 2007, 217, 'Amulet Books');
+insert into Book values(9780810994737, 'Diary Of a Wimpy Kid Rodrick Rules', 'Jeff Kinney', 2008, 217, 'Amulet Books');
+insert into Book values(9781419711763, 'Diary Of a Wimpy Kid Hard Luck', 'Jeff Kinney', 2013, 217, 'Amulet Books');
+insert into Book values(9781419736421, 'Diary of a Wimpy Kid The Meltdown', 'Jeff Kinney', 2018, 217, 'Amulet Books');
+insert into Book values(9781419744778, 'Diary Of a Wimpy Kid Wrecking Ball', 'Jeff Kinney', 2019, 217, 'Amulet Books');
+insert into Book values(9780140288520, 'Difficult Conversations', 'Douglas Stone, Bruce Patton and Sheila Heen', 2000, 248, 'Penguin Group');
+insert into Book values(9780064400589, 'Julie of the Wolves', 'Jean Craighead George', 1972, 170, 'Harper Collins Publishers');
+insert into Book values(9780545828604, 'Amulet Book Eight Supernova', 'Kazu Kibuishi', 2018, 199, 'Scholastic Press');
+insert into Book values(9780439856361, 'Mermaidia', 'Daniela Burr', 2006, 076, 'Scholastic Press');
+insert into Book values(9780007497935, 'The Hobbit', 'J.R.R. Tolkien', 2013, 374, 'Harper Collins Publishers');
+insert into Book values(9780439096987, 'Kitten in the Cold', 'Ben M.Baglio', 1996, 132, 'Scholastic Press');
+insert into Book values(9780439442907, 'Spongebob Jokepants', 'David Lewman', 2002, 046, 'Scholastic Press');
+insert into Book values(9780590333062, 'The Karate Kid', 'B.B. Hiller', 1984, 131, 'Scholastic Press');
+insert into Book values(9780316388443, 'Minions Long Live King Bob!', 'Lucy Rosen ', 2015, 022, 'Scholastic Press');
+insert into Book values(9780375823770, 'Magic Tree House Dolphins and Sharks', 'Mary Pope Osborne and Natalie Pope Boyce', 2003, 118, 'Stepping Stone Book');
+insert into Book values(9781594746482, 'Nick and Teslas High-Voltage Danger Lab', 'Pflugfelder and Steve Hockensmith', 2013, 237, 'Quirk Books');
+insert into Book values(9781597073295, 'Ninjago Tomb of the Fangpyre #4', 'Greg Farshtey', 2012, 061, 'Papercutz');
+insert into Book values(9781848796867, 'Sharks', 'Sarah Creese', 2010, 030, 'Make Believe Ideas ltd.');
+insert into Book values(9780841671461, 'A Cool Kids Field Guide to Global Warming', 'Karen Farrington', 2009, 026, 'Potter Publishing Ltd.');
+insert into Book values(9781595668639, 'My Day At the Zoo Mammal Kingdom', 'Terry Jennings', 2010, 024, 'QEB Publishing');
+insert into Book values(9781443100014, 'Canadas Birds', 'Susan Hughes', 2010, 052, 'Scholastic Press');
+insert into Book values(9780545385589, 'Travel-size pups Around the World', 'Ed Masessa', 2012, 032, 'Scholastic Press');
+insert into Book values(9781934967003, 'Sesame Street Good Night', Null, 2008, 010, 'Flying Frog Publishing');
+insert into Book values(9780545807968, 'Pinkalicious puptastic', 'Victoria Kann', 2013, 032, 'Scholastic Press');
+insert into Book values(9780756682811, 'Star Wars the Clone Wars Boba Fett: Jedi Hunter', 'Clare Hibbert', 2011, 032, 'DK Publishing');
+insert into Book values(Null, 'Discover the Love of Reading', Null, Null, 016, 'New Brunswick Public Libraries Foundation');
+insert into Book values(9781595668639, 'My Day at the Zoo Amazing Aquarium', 'Terry Jennings', 2010, 024, 'QEB Publishing');
+insert into Book values(9780545358446, 'Remembering the Titanic', 'Frieda Wishinsky', 2012, 032, 'Scholastic Press');
+insert into Book values(Null, 'Things that go', Null, 2014, 047,'DK Publishing');
+insert into Book values(9780717219240, 'Natures Children Coyote', 'Caroline Greenland', 1986, 046, 'Groiler Limited');
+insert into Book values(9786281620141, 'Sonic the Hedgehog', Null, Null, 027, 'Archie Comics');
+insert into Book values(9781423140597, 'The Son of Neptune', 'Rick Riordan', 2011, 521, 'Hyperion Books');
+insert into Book values(9781423113386, 'The Red Pyramid', 'Rick Riordan', 2010, 516, 'Hyperion Books');
+insert into Book values(9781554814039, 'The Broadview Introduction To Literature Short Fiction Second Edition', 'Laura Buzzard, Andrew Rezitnyk, Paul Johnston Byrne and Tara Bodie', 2018, 397, 'Broadview Press');
+insert into Book values(9781465458568, 'The Psychology Book', 'Nigel Benson', 2012, 352, 'DK Publisher');
+insert into Book values(9781770864863, 'The Marrow Theives', 'Cherie Dimaline', 2017, 234, 'Comorant Books Inc.');
+insert into Book values(9780141198859, 'Jane Eyre', 'Charlotte Bronte', 2012, 600, 'Penguin Group');
+insert into Book values(9787862470190, 'SkyNews Understanding Jupiter', 'Null', 2017, 54, 'SkyNews');
+insert into Book values(9786194134349, 'DC Universe Rebirth Justice League', 'Geoff Johns', 2017, 032, 'DC Comics');
+insert into Book values(9781422157978, 'HBRs 10 Must Reads On Leadership', 'Bill George, Peter Drucker and Daniel Goleman', 2011, 217, 'Harvard Business Review Press');
+insert into Book values(9781553966058, 'New Brunswick Drivers Handbook', 'Null', 2011, 136, 'Department of Justice and Public Safety');
+insert into Book values(9781447263272, 'Our Iceberg is Melting', 'John Kotter and Holger Rathgeber', 2014, 147, 'Macmillan');
+insert into Book values(9781788882033, 'David Copperfield', 'Charles Dickens', 2019, 765, 'Arcturus Publishing Limited');
+
+insert into Texture values('The Broadview Introduction To Literature Short Fiction Second Edition', 'The Marrow Theives', 'Its All Love', 'The Red Pyramid', 'Natures Children Coyote');
+insert into Texture values('The Psychology Book', 'SkyNews Understanding Jupiter', 'The Hobbit', 'The Son of Neptune', 'Magic Tree House Dolphins and Sharks');
+insert into Texture values('Jane Eyre', 'DC Universe Rebirth Justice League', 'Good Night', 'The Hunger Games', 'The Karate Kid');
+insert into Texture values('HBRs 10 Must Reads On Leadership', 'Sonic the Hedgehog', 'Sharks', 'Kitten in the Cold', Null);
+insert into Texture values('New Brunswick Drivers Handbook', Null, 'Nick and Teslas High-Voltage Danger Lab', Null, Null);
+insert into Texture values('Our Iceberg is Melting', Null, 'A Cool Kids Field Guide to Global Warming', Null, Null);
+insert into Texture values('David Copperfield', Null, 'Diary Of a Wimpy Kid Rodrick Rules', Null, NUll);
+insert into Texture values('Julie of the Wolves', Null, 'Diary Of a Wimpy Kid Wrecking Ball', Null, Null);
+insert into Texture values('The Legend of Zelda Ocarina Of Time Part 1', Null, 'Amulet Book Eight Supernova', Null, Null);
+insert into Texture values('The Legend of Zelda Oracle of Seasons', Null, 'Diary Of a Wimpy Kid', Null, Null);
+insert into Texture values('The Legend of Zelda Majoras Mask', Null, Null, Null, Null);
+insert into Texture values('Difficult Conversations', Null, Null, Null, Null);
+insert into Texture values('Mermaidia', Null, Null, Null, Null);
+insert into Texture values('Remembering the Titanic', Null, Null, Null, Null);
+insert into Texture values('Star Wars the Clone Wars Boba Fett: Jedi Hunter', Null, Null, Null, Null);
+insert into Texture values('Pinkalicious puptastic', Null, Null, Null, Null);
+insert into Texture values('Travel-size pups Around the World', Null, Null, Null, Null);
+insert into Texture values('Ninjago Tomb of the Fangpyre #4', Null, Null, Null, Null);
+insert into Texture values('Things that go', Null, Null, Null, Null);
+insert into Texture values('Diary of a Wimpy Kid The Meltdown', Null, Null, Null, Null);
+insert into Texture values('Discover the Love of Reading', Null, Null, Null, Null);
+insert into Texture values('My Day at the Zoo Amazing Aquarium', Null, Null, Null, Null);
+insert into Texture values('My Day At the Zoo Mammal Kingdom', Null, Null, Null, Null);
+insert into Texture values('Spongebob Jokepants', Null, Null, Null, Null);
+insert into Texture values('Minions Long Live King Bob!', Null, Null, Null, Null);
+insert into Texture values('Diary Of a Wimpy Kid Hard Luck', Null, Null, Null, Null);
+insert into Texture values('Canadas Birds', Null, Null, Null, Null);
+insert into Texture values('Geronimo Stilton The Journey Through Time', Null, Null, Null, Null);
+insert into Texture values('East Blue One Piece', Null, Null, Null, Null);
+
+insert into Type values('The Legend of Zelda Oracle of Seasons', 'Star Wars the Clone Wars Boba Fett: Jedi Hunter', 'Julie of the Wolves', 'Travel-size pups Around the World', 'Nick and Teslas High-Voltage Danger Lab');
+insert into Type values('Ninjago Tomb of the Fangpyre #4', 'The Red Pyramid','The Marrow Theives', 'Difficult Conversations', Null);
+insert into Type values('DC Universe Rebirth Justice League', 'The Karate Kid', 'Mermaidia', 'The Psychology Book', Null);
+insert into Type values('Sonic the Hedgehog', 'Mermaidia', 'Things that go', 'David Copperfield', Null);
+insert into Type values('The Legend of Zelda Majoras Mask', Null, 'Pinkalicious puptastic', 'A Cool Kids Field Guide to Global Warming', Null);
+insert into Type values('East Blue One Piece', Null, 'Minions Long Live King Bob!', 'SkyNews Understanding Jupiter', Null);
+insert into Type values('Amulet Book Eight Supernova', Null, 'Spongebob Jokepants', 'Its All Love', Null);
+insert into Type values(Null, Null, 'Geronimo Stilton The Journey Through Time', 'Natures Children Coyote', Null);
+insert into Type values(Null, Null, 'Diary Of a Wimpy Kid Hard Luck', 'Magic Tree House Dolphins and Sharks', Null);
+insert into Type values(Null, Null, 'Diary Of a Wimpy Kid Rodrick Rules', 'Sharks', Null);
+insert into Type values(Null, Null, 'Diary Of a Wimpy Kid Wrecking Ball ', 'HBRs 10 Must Reads On Leadership', Null);
+insert into Type values(Null, Null, 'Diary Of a Wimpy Kid The Meltdown', 'Our Iceberg is Melting', Null);
+insert into Type values(Null, Null, Null, 'Discover the Love of Reading', Null);
+insert into Type values(Null, Null, Null, 'My Day At the Zoo Mammal Kingdom', Null);
+insert into Type values(Null, Null, Null, 'My Day at the Zoo Amazing Aquarium', Null);
+insert into Type values(Null, Null, Null, 'Jane Eyre', Null);
+insert into Type values(Null, Null, Null, 'The Broadview Introduction To Literature Short Fiction Second Edition', Null);
+insert into Type values(Null, Null, Null, 'Canadas Birds', Null);
+commit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
